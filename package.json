@@ -28,10 +28,15 @@
     "format:check": "prettier --list-different \"src/**/*.ts\"",
     "format:apply": "prettier --write \"src/**/*.ts\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "mz": "^2.7.0",
+    "npm-run": "^5.0.1"
+  },
   "devDependencies": {
     "@types/jest": "^25.1.3",
+    "@types/mz": "^2.7.0",
     "@types/node": "^12.12.28",
+    "@types/npm-run": "^5.0.0",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "ts-jest": "^25.2.1",
