@@ -2,7 +2,7 @@
   "main": "js/index",
   "typings": "js/index",
   "name": "@kondi/fast-skip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Skip an execution when it was already done for the current set of package dependencies",
   "license": "MIT",
   "keywords": [],
