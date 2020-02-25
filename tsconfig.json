@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "lib": ["es6", "es2016", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "outDir": "./js",
+    "sourceMap": true,
+    "target": "es5",
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "ignoreDefinitionFiles": true
+      }
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  }
+}
